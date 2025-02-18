@@ -4,4 +4,4 @@ numero=int(input("Digite um numero: "))
 for a in range(numero):
     for i in nome:
         print(i)
-        
+print("Vitor Gulicz")

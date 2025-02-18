@@ -2,3 +2,4 @@
 nome=input("Insira seu nome: ")
 for i in nome:
     print(i)
+print("Vitor Gulicz")

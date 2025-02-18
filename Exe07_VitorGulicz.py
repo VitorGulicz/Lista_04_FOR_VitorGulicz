@@ -5,6 +5,8 @@ numero=int(input("Digite um numero: "))
 if numero<10:
     for i in range(numero):
         print(nome)
+    print("Vitor Gulicz")
 else:
     for i in range(3):
-        print("Numero muito alto")
+        print("Numero muito alto ")
+    print("Vitor Gulicz")

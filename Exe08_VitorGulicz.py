@@ -8,4 +8,4 @@ for i in range(5):
         total=total+numero
     else:
         print("Numero não adicionado")
-print("Numero total: ",total)
+print("Numero total: ",total," -Vitor Gulicz")

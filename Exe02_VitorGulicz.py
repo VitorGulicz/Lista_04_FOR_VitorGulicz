@@ -3,3 +3,4 @@ nome=input("Insira seu nome: ")
 numero=int(input("Digite um numero: "))
 for i in range(numero):
     print(nome)
+print("Vitor Gulicz")
