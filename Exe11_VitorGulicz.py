@@ -12,10 +12,11 @@ tarefaSim=0
 tarefaNao=0
 
 for i in range(numeroTarefas):
-    op=str(input("A tarefa está completa?(sim ou s | não ou n)"))
+    nome=str(input("Nome da Tarefa: "))
+    op=str(input("A tarefa está completa?(sim ou s | não ou n): "))
     if "sim" in op.lower() or "s" in op.lower():
         tarefaSim+=1
-    elif "não" in op.lower() or "s" in op.lower():
+    elif "não" in op.lower() or "n" in op.lower():
         tarefaNao+=1
     else:
         print("Opção invalida")
