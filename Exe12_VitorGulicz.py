@@ -13,8 +13,17 @@ horarios=[]
 for i in range(qntsHorarios):
     horario=input("Digite um horario: ")
     horarios.append(horario)
+for i in range(qntsHorarios):
+    print("Horarios disponiveis: ",horarios)
+    op=input("Deseja marcar algum horario?(s ou n) ")
+    if "s" in op.lower():
+        marcar=(input("Digite qual horario deseja marcar: "))
+        if marcar in horarios:
+            index=horarios.index(marcar)
+            horarios.pop(index)
+        else:
+            print("Horario invalido")
+    else:
+        print("Horario não foi marcado horario")
 print("Horarios disponiveis: ",horarios)
-op=input("Deseja marcar algum horario? ")
-if "s" in op:
-    marcar=input("Digite qual horario deseja marcar: ")
-    horarios.remove(marcar)
+print("Vitor Gulicz")
